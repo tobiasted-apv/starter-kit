@@ -9,6 +9,7 @@ export type Collections = {
     externalLinks: Collection<documents.ExternalLink>;
     settings: Collection<documents.Setting>;
     lives: Collection<documents.Life>;
+    tests: Collection<documents.Test>;
 };
 
 export const getCollections = ({
@@ -21,4 +22,5 @@ export const getCollections = ({
     settings: encrypted.db.collection<documents.Setting>('settings'),
     externalLinks: regular.db.collection<documents.ExternalLink>('externalLinks'),
     lives: regular.db.collection<documents.Life>('lives'),
+    tests: regular.db.collection<documents.Test>('tests'),
 });
