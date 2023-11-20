@@ -1,0 +1,12 @@
+query getLives {
+    listLives{
+        id
+        firstName
+        lastName
+        fullName
+        description
+        birthday
+        hobbies
+        title
+    }
+}
