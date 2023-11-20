@@ -60,7 +60,7 @@ export const migrate = async (context: DatabaseContext, verbose = true): Promise
                         console.error(
                             chalk.red(
                                 `Failed to execute ${migration.identifier} as the ` +
-                                    `squashed migration ${missingMigration} is missing`
+                                `squashed migration ${missingMigration} is missing`
                             )
                         );
 
