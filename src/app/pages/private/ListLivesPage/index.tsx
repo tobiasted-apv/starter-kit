@@ -1,5 +1,6 @@
 import { Table } from 'antd';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 import { useGetLivesQuery } from '../../../api';
 
 const ListLivesPage = () => {
@@ -12,7 +13,7 @@ const ListLivesPage = () => {
             title: t('headers.id'),
             dataIndex: 'id',
             key: 'id',
-            render: (text, record) => <a href={`http://localhost:3000/private/lives/${record.id}`}>{text}</a>,
+            render: (text, record) => <Link to={`/private/lives/${record.id}`}>{text}</Link>,
         },
         {
             title: t('headers.firstName'),

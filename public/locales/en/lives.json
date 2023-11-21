@@ -6,6 +6,7 @@
         "title": "Title",
         "description": "Description",
         "birthday": "Birthday",
-        "hobbies": "Hobbies"
+        "hobbies": "Hobbies",
+        "fullName": "fullName"
     }
 }
