@@ -1,0 +1,5 @@
+query detailLife($lifeID: ObjectID!) {
+    getLife(id: $lifeID){
+        ...LifeData
+    }
+}

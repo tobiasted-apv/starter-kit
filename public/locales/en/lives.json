@@ -1,0 +1,12 @@
+{
+    "headers": {
+        "id": "ID",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "title": "Title",
+        "description": "Description",
+        "birthday": "Birthday",
+        "hobbies": "Hobbies",
+        "fullName": "fullName"
+    }
+}
